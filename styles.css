@@ -60,6 +60,7 @@ label, input{
 }
 .name-prog{
     position: relative;
+    padding-top: 30px;
 }
 
 .mountain-div{
