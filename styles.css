@@ -1,0 +1,285 @@
+/******************************TAGS*********************************/
+a
+{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    
+}
+a:hover
+{
+    color: #EAF6F6;
+}
+body
+{
+    font-family: 'Merriweather', serif;
+    
+
+}
+hr
+{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 5%;
+    border-color: #D3D3D3;
+}
+h1
+{
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 200%;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p
+{
+    color: #40514E;;
+}
+label, input{
+    margin-bottom: 15px;
+}
+
+
+/***************************CLASSES********************************/
+.top-container
+{
+    height: 100vh;
+    background-color: #E4F9F5;
+    position: relative;
+    
+}
+.name-prog{
+    position: relative;
+}
+
+.mountain-div{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.top-cloud{
+    position: relative;
+    top: 70px;
+    left: -270px;
+}
+.bottom-cloud{
+    position: relative;
+    left: 240px;
+    bottom: 40px;
+}
+.mountain{
+    display: block;
+    height: 300px;
+    margin: auto;
+}
+.name{
+    margin-bottom: 30px;
+}
+
+.abovecm
+{
+    margin: 0 auto 70px auto;
+}
+
+.contact
+{
+    margin: 50px auto 50px auto;
+}
+.et
+{
+    padding: 0 220px 10px;
+    color: #11999E;
+}
+.education
+{
+    margin: 50px auto 50px auto;
+}
+.edu-tab
+{
+    padding-top: 50px;
+}
+.footer
+{
+    margin: 70px auto 0 auto;
+    background-color: #66BFBF;
+    padding: 50px 0 30px ;
+}
+.ft
+{
+    color: #EAF6F6;
+    margin: 70px 0 20px;
+}
+.hobbies
+{
+    margin: 50px auto 50px auto;
+}
+.hobtab
+{
+    margin: 80px auto 80px auto;
+}
+.ht
+{
+    padding: 0 35px 0;
+}
+.introline
+{
+    width: 30%;
+    margin: 10px auto 40px auto;
+    line-height: 2;
+}
+
+.name
+{
+    font-size: 5.625rem;
+}
+.prog
+{
+    margin-top: -40px;
+    font-size: 2rem;
+}
+.profile
+{
+    margin: 50px auto 50px auto;
+}
+.skills
+{
+    margin: 50px auto 50px auto;
+}
+.skill-row-1
+{
+    width: 50%;
+    margin: 60px auto 60px auto;
+    text-align: left;
+    line-height: 2;
+    transition: transform 0.3s;
+}
+.skill-row-2
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    transition: transform 0.3s;
+}
+.skill-img-1
+{
+    float: left;
+    padding-right: 25px;
+    margin-bottom: 10px;
+    
+}
+.skill-img-2
+{
+    float: right;
+    padding-left: 25px;
+    margin-top: -10px;
+    width: 250px;
+    
+}
+
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+  .inner-project, .inner-education, .inner-hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .inner-project{
+    padding-bottom: 50px;
+  }
+  .contact-me-form{
+    margin-left: 40px;
+  }
+.cm-btn{
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+    border: 2px solid #11999E;
+    margin-top: 10px;
+}
+.cm-btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #66BFBF;
+  }
+  .cm-btn:active{
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+    border: 2px solid #11999E;
+    margin-top: 10px;
+  }
+  .skill-row-1:hover, .skill-row-2:hover, .hob1:hover, .hob2:hover, .hob3:hover, .edu1:hover, .edu2:hover, .project-1:hover, .project-2:hover{
+    transform: scale(1.1);
+    
+  }
+  .mypfp:hover{
+    transform: scale(1.2);
+    
+  }
+  .hob1, .hob2, .hob3, .edu1, .edu2, .project-1, .project-2, .mypfp{
+    transition: transform 0.3s;
+  }
